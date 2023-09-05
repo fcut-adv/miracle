@@ -1336,8 +1336,19 @@ img {
   padding: 60px;
   font-size: x-large;
   list-style: none;
-  width: 850px;
+  width: 800px;
   color: #524f4f;
+}
+.aboutimg1 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  margin: 60px 60px 0px 60px;
+  font-size: x-large;
+  list-style: none;
+  width: 800px;
+  color: #524f4f;
+  opacity: 1;
 }
 .contact {
   position: absolute;
@@ -1360,4 +1371,20 @@ img {
   list-style: none;
   width: 40%;
   color: #fffafa;
+}
+@font-face {
+  font-family: "BakingLion";
+  src: local("BakingLion") url("fonts/Baking\ Lion-Personal\ Use.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.badge-success {
+  color: white;
+  background-color: #053e6e;
 }
